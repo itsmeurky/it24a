@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1> Hello World</h1>
+<input type="text"
+       id="textbox"
+       placeholder="type something here..">
+<h1 id = " displaytext" oninput = "updateDisplay()" > Your text goes here
+</h1>
+
+</body>
+<script>
+    function updateDisplay (){
+        var textbox = document.getElementById('display');
+        var displaytext = document.getElementById(displaytext);
+        var displaytext2 = document.getElementById(displaytext2);
+       const d = new Date();
+
+       displaytext.textcontent = textbox.value;
+       displaytext2.textcontent = textbox.value;
+       console.log(textbox.value + d + " " + window.location.hostname);
+    }
+    
+
+    </script>
+    <body>
+
+
